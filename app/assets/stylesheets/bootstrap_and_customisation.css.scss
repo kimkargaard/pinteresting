@@ -1,5 +1,17 @@
+@import url(http://fonts.googleapi.com/css?family=Lato:400,700);
+
+$font-family-sans-serif:	'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+$navbar-height:		45px;
 $navbar-default-bg:	#bdc3c7;
 $navbar-default-link-color:	black;
 $body-bg:	#95a5a6;
 $icon-font-name:	glyphicons-halflings-regular;
 @import 'bootstrap';
+
+	.center {
+		text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
