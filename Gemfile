@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use SCSS for stylesheets
@@ -34,6 +33,8 @@ gem 'spring',        group: :development
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#Devise gem for authentication of users
+gem 'devise', '~> 3.2.4'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
