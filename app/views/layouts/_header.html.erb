@@ -8,14 +8,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-	<%= link_to "MediApp", root_path, class: "navbar-brand" %>
+	<%= link_to "Lovehound Productions", root_path, class: "navbar-brand" %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
-        <li><%= link_to "Product", product_path %></li>
         <li><%= link_to "About Us", about_path %></li>
         <li><%= link_to "Contact Us", contact_path %></li>
 	<% if user_signed_in? %>
