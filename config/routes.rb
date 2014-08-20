@@ -5,6 +5,8 @@ get "about" => "pages#about" #About_path
 get "contact" => "pages#contact" #Contact_path
 get "product" => "pages#product" #Product_path
 get "signin" => "pages#signin" #Signin_path
+get "nanny_now" => "pages#nanny_now" #nanny_now_path
+get "howitworks" => "pages#howitworks" #howitworks_path
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
